@@ -1,0 +1,14 @@
+{
+  "name": "clean-time",
+  "version": "0.1.0",
+  "description": "simple readable time generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Bobbyl2k",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
