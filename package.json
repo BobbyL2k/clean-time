@@ -10,5 +10,17 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.4.5"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BobbyL2k/clean-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BobbyL2k/clean-time/issues"
+  },
+  "homepage": "https://github.com/BobbyL2k/clean-time"
 }
