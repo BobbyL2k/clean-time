@@ -1,7 +1,7 @@
 {
   "name": "clean-time",
   "version": "0.1.1",
-  "description": "simple readable time generator",
+  "description": "Simple readable time generator",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/BobbyL2k/clean-time/issues"
   },
-  "homepage": "https://github.com/BobbyL2k/clean-time"
+  "homepage": "https://github.com/BobbyL2k/clean-time",
+  "keywords": [
+    "time",
+    "clean",
+    "code",
+    "readable"
+  ]
 }
