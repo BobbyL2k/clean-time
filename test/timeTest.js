@@ -5,6 +5,17 @@ const time = require('./../lib/time');
 
 describe('time', function () {
     describe('single method call', function () {
+        describe('ms', function () {
+            it('should return correct time with input 1', function () {
+                var value = 1;
+                assert.strictEqual(time(1).ms(), value);
+            });
+            it('should return correct time corresponding to the input', function () {
+                var value = 1;
+                var random = Math.random()*30;
+                assert.strictEqual(time(random).ms(), value*random);
+            });
+        });
         describe('second', function () {
             it('should return correct time with input 1', function () {
                 var value = 1000;
